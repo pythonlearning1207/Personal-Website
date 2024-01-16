@@ -1,0 +1,79 @@
+/*colors*/
+.container-resume {
+    background-color:rgb(126, 99, 99);
+    color: rgb(245, 238, 230);
+}
+
+.cover-image {
+    width: 100%;
+}
+
+.container-resume {
+    display: grid;
+    grid-template: repeat(4, 300px) / 1fr 2fr;
+    padding: 80px;
+    gap: 100px;
+}
+p {
+    font-size: 18px;
+}
+.container-resume ul li {
+    list-style-type:square;
+    font-size: 18px;
+    
+}
+/*Professional experience section*/
+.professional-EX h2 {
+    padding-bottom: 10px;
+}
+.professional-EX ul {
+    font-size: 18px;
+    padding-left: 12px;
+}
+.professional-EX ul li {
+    padding-bottom: 10px;
+}
+.professional-EX {
+    grid-row-start: span 3;
+}
+.second-job {
+    padding-top: 70px;
+}
+
+/*skills section*/
+.skills {
+    grid-row-start: span 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+.skills > ul {
+    padding-left: 12px;
+    padding-top: 10px;
+}
+.skills ul li {
+    padding-bottom: 5px;
+}
+
+/*Education section */
+.education {
+    display: flex;
+    grid-row-start: span 2;
+    flex-direction: column;
+    justify-content: start;
+}
+
+/*projects*/
+.projects {
+    grid-area: 4/2/6/-1;
+}
+.projects h2 {
+    padding-bottom: px;
+}
+.projects h4 {
+    padding-top: 20px;
+}
+
+
+
